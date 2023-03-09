@@ -1,5 +1,5 @@
 var HDWalletProvider = require("truffle-hdwallet-provider");
-var mnemonic = "candy maple cake sugar pudding cream honey rich smooth crumble sweet treat";
+var mnemonic = "enhance drop cherry toward jealous armed correct long amused spring wash work";
 
 module.exports = {
   networks: {
@@ -12,9 +12,9 @@ module.exports = {
     // }
     development: {
       host: "127.0.0.1",     // Localhost
-      port: 8545,            // Standard Ganache UI port
+      port: 7545,            // Standard Ganache UI port
       network_id: "*",
-      gas: 9999999
+      //gas: 9999999
     }
   },
   compilers: {
